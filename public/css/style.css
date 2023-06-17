@@ -1,0 +1,169 @@
+body {
+    font-family: ABeeZee, sans-serif;
+    position: relative;
+    margin-left: 102px !important;
+    margin-right: 102px !important;
+}
+
+.header-margin {
+    position: relative;
+    margin-top: 72px;
+    margin-bottom: 72px;
+}
+
+#header {
+    position: sticky;
+    font-size: 40pt;
+    top: 0;
+}
+
+.note-card {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(255, 182, 55);
+    font-weight: 300;
+    border-radius: 30px;
+    padding: 24px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.note-card:hover {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-button {
+    position: absolute;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.edit-button {
+    width: 50px;
+    height: 50px;
+    bottom: 16px;
+    right: 16px;
+}
+
+.button:hover {
+    background-color: #313131;
+}
+
+.card-date {
+    position: absolute;
+    bottom: 32px;
+    left: 24px;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.floating-action-button {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 56px;
+    right: 56px;
+    color: white;
+    background-color: black;
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.floating-action-button i {
+    font-size: 22pt;
+}
+
+dialog {
+    position: relative;
+    border: none;
+    border-radius: 10px;
+    padding: 48px;
+    padding-top: 64px;
+}
+
+textarea {
+    width: 350px;
+    height: auto;
+    margin-bottom: 64px;
+    min-height: 1em;
+    overflow: hidden;
+    resize: none;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.text-input {
+    width: 350px;
+    border: none;
+    margin-bottom: 32px;
+    font-size: 32px;
+}
+
+.text-input:focus {
+    outline: none;
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.note-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.note-card-delete {
+    display: none;
+    position: absolute;
+    top: 24px;
+    right: 16px;
+    height: 50px;
+    width: 50px;
+}
+
+.note-card-delete:hover {
+    background-color: #ff5858;
+}
+
+.card-button i {
+    color: white;
+}
+
+.card-content {
+    height: 200px;
+    overflow: auto;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.empty-state {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 30px;
+    font-weight: 600;
+}
